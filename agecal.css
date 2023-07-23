@@ -1,0 +1,78 @@
+
+.container{
+    width: 500px;
+    background-color: rgb(231, 216, 216);
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    left: 33%;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-style: italic;
+
+}
+.upper-part{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.upper-part div{
+    height: 120px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+span{
+   font-size: 30px;
+   font-weight: 500;
+}
+p{
+    font-size: 15px;
+   font-weight: 400;
+   color: grey;
+}
+.lowe-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+    margin-top: 40px;
+    background-color: black;
+}
+input{
+    width: 60%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 5px;
+    background-color: 
+    rgb(229, 214, 214);
+    color: black;
+}
+button{
+    width: 35%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 5px;
+    background-color: rgb(229, 214, 214);
+    color: black;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+}
